@@ -15,7 +15,7 @@ selected_columns = content[
 x = selected_columns["Mortality rate, infant (per 1,000 live births)"]
 y = selected_columns["GDP per capita (constant 2010 US$)"]
 
-plt.scatter(x, y)
+plt.scatter(x, y, color="red")
 # fig, ax = plt.subplots()
 # ax.plot(selected_columns)
 plt.xlabel("GDP per Capita")
